@@ -1,0 +1,65 @@
+#root{
+    background: gray;
+    height: 100vh;
+
+    .app{
+        background: white;
+        padding: 3em;
+        width: 90%;
+        max-width: 600px;
+
+        .header{
+            // background: pink;
+            padding-bottom: 2em;
+        }
+
+        .footer{
+            // background: cyan;
+            display: flex;
+            justify-content: space-between;
+
+            .social-media{
+                // background: green;
+                display: flex;
+                align-items: center;
+
+                .fab{
+                    width: 30px;
+                    height: 30px;
+                    background: white;
+                    color: black;
+                    // display: block;
+                    margin-right: 0.2em;
+                    border: 1px solid black;
+                    transition: all 200ms ease-in-out;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: black;
+                        color: white;
+                    }
+                }
+            }
+
+            .btn{
+                border: none;
+                padding: 0.5em 1em;
+                font-size: 1.2rem;
+                font-weight: 600;
+                font-family: inherit;
+                background: white;
+                border: 1px solid black;
+                transition: all 200ms ease-in-out;
+                cursor: pointer;
+
+                &:hover{
+                    background: black;
+                    color: white;
+                }
+            }
+
+        }
+
+
+    }
+}
